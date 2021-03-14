@@ -1,0 +1,1871 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &231071561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231071563}
+  - component: {fileID: 231071562}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &231071562
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231071561}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &231071563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231071561}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &253456318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c73216ad1e23b43a82620464ff135d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _paintBrushSize: 1
+  _paintBrushOpacity: 1
+  _paintIntValue: 
+  _paintFloatValue: []
+  _paintStringValue: []
+  _lastAttributesGeoID: 0
+  _lastAttributesPartID: 0
+  _lastAttributeNodeName: 
+  _lastAttributeName: 
+  _brushHandleColor: {r: 0, g: 0, b: 0, a: 1}
+  _affectedAreaPaintColor: {r: 1, g: 1, b: 0, a: 1}
+  _liveUpdate: 1
+  _isPainting: 0
+  _editPointBoxSize: 0.1
+  _editPointBoxUnselectedColor: {r: 1, g: 0, b: 0, a: 1}
+  _editPointBoxSelectedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  _recacheRequired: 1
+  _paintMergeMode: 0
+  _showOnlyEditGeometry: 1
+  _alwaysCookUpstream: 1
+  _paintMeshVisiblity: 0
+--- !u!114 &537259649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ce3a7cc3f38404592fdd27226cb0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partID: 0
+  _partName: grass_texture1_0
+  _objectNodeID: 31
+  _geoID: 5
+  _partType: 2
+  _geoNode: {fileID: 1129952956}
+  _isAttribInstancer: 0
+  _isPartInstanced: 0
+  _partPointCount: 1
+  _isObjectInstancer: 0
+  _objectInstancesGenerated: 0
+  _objectInstanceInfos: []
+  _terrainOffsetPosition: {x: 512, y: -62.931477, z: -512}
+  _assetDBTerrainData: {fileID: 15600000, guid: 830f33da0a3a7ae429b46358d7bd95b6, type: 2}
+  _isPartEditable: 0
+  _partOutputType: 2
+  _curve: {fileID: 0}
+  _attributesStore: {fileID: 0}
+  _haveInstancesBeenGenerated: 0
+  _meshVertexCount: 1
+  _generatedOutput:
+    _outputData:
+      _gameObject: {fileID: 1240512364}
+      _renderMaterials: []
+      _colliders: []
+    _childOutputs: []
+  _volumeLayerName: height
+--- !u!114 &701401755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 054bae7d2b31a224da13732a930a5b13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ownerNode: {fileID: 1129952956}
+  _layers:
+  - _layerName: height
+    _part: {fileID: 537259649}
+    _strength: 1
+    _uiExpanded: 0
+    _tile: 0
+    _xLength: 513
+    _yLength: 513
+    _terrainLayer: {fileID: 0}
+    _layerType: 1
+  - _layerName: base
+    _part: {fileID: 1664142439}
+    _strength: 1
+    _uiExpanded: 0
+    _tile: 0
+    _xLength: 513
+    _yLength: 513
+    _terrainLayer: {fileID: 8574412962073106934, guid: 82728e508b6df26499188bbd0eab6917, type: 2}
+    _layerType: 0
+  - _layerName: grass
+    _part: {fileID: 1495231387}
+    _strength: 1
+    _uiExpanded: 0
+    _tile: 0
+    _xLength: 513
+    _yLength: 513
+    _terrainLayer: {fileID: 8574412962073106934, guid: 80897e90fc63ee845819247abebed5ee, type: 2}
+    _layerType: 0
+  _tileIndex: 0
+  _isDirty: 0
+  _geoName: grass_texture1
+  _objName: antu3_heightfield1
+  _uiExpanded: 1
+  _terrainData: {fileID: 15600000, guid: 830f33da0a3a7ae429b46358d7bd95b6, type: 2}
+--- !u!114 &1047196672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f149f98b4ada1f047b5a0c3d65f45dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInstanceInputs: 1
+  _numInputsToShowUI: 5
+  _inputsPageIndexUI: 0
+--- !u!114 &1129952956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d66a2560bc02844b93f5cd39436c51a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _geoInfo:
+    type: 0
+    nameSH: 7551
+    nodeId: 5
+    isEditable: 0
+    isTemplated: 0
+    isDisplayGeo: 1
+    hasGeoChanged: 0
+    hasMaterialChanged: 0
+    pointGroupCount: 0
+    primitiveGroupCount: 0
+    partCount: 4
+  _geoName: grass_texture1
+  _parts:
+  - {fileID: 537259649}
+  - {fileID: 1855357022}
+  - {fileID: 1664142439}
+  - {fileID: 1495231387}
+  _containerObjectNode: {fileID: 1579905275}
+  _inputNode: {fileID: 0}
+  _geoCurve: {fileID: 0}
+  _volumeCache: {fileID: 0}
+  _volumeCaches:
+  - {fileID: 701401755}
+--- !u!114 &1169530659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d17581e5b7f4946a3c54d1fe65c9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nodeID: 31
+  _uiLabel: ASSET PARAMETERS
+  _paramInts: 0000000000000000000000000000000000000000000000000100000001000000000000000000000001000000000000000000000002000000040000000000000000000000000000000000000000000000000000000100000000000000020000000000000000000000000000000000000001000000000000000100000000000000010000000100000000000000000000000000000001000000
+  _paramFloats:
+  - 0
+  - 0
+  - 0
+  - 0
+  - -0
+  - 0
+  - 1
+  - 1
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  - 0.05
+  - 1
+  - 1
+  - 1
+  - 1
+  - 10
+  - 10
+  - 0
+  - 0
+  - 10
+  - 10
+  - 0
+  - 0
+  _paramStrings:
+  - 
+  - 
+  - 
+  - on
+  - 
+  - 
+  - '*'
+  - mantra_catclark
+  - 
+  - 
+  - '*'
+  - '*'
+  - '*'
+  - '*'
+  - 
+  - box
+  - accel
+  - 
+  - compact
+  - 
+  - Assets/Materials/Textures/Grass.jpg
+  - Assets/Materials/Textures/Ground.jpg
+  _paramChoices:
+  - parentParmId: 4
+    labelSH: 7581
+    valueSH: 7665
+  - parentParmId: 4
+    labelSH: 7569
+    valueSH: 7671
+  - parentParmId: 4
+    labelSH: 7524
+    valueSH: 7548
+  - parentParmId: 4
+    labelSH: 1608
+    valueSH: 7572
+  - parentParmId: 4
+    labelSH: 7657
+    valueSH: 7019
+  - parentParmId: 4
+    labelSH: 7603
+    valueSH: 7570
+  - parentParmId: 5
+    labelSH: 7528
+    valueSH: 7588
+  - parentParmId: 5
+    labelSH: 7647
+    valueSH: 7520
+  - parentParmId: 5
+    labelSH: 7500
+    valueSH: 7514
+  - parentParmId: 5
+    labelSH: 7605
+    valueSH: 7618
+  - parentParmId: 5
+    labelSH: 7649
+    valueSH: 7516
+  - parentParmId: 5
+    labelSH: 6738
+    valueSH: 7631
+  - parentParmId: 12
+    labelSH: 7653
+    valueSH: 7626
+  - parentParmId: 12
+    labelSH: 7613
+    valueSH: 1103
+  - parentParmId: 12
+    labelSH: 7630
+    valueSH: 7644
+  - parentParmId: 12
+    labelSH: 7512
+    valueSH: 7562
+  - parentParmId: 12
+    labelSH: 7560
+    valueSH: 7591
+  - parentParmId: 12
+    labelSH: 1146
+    valueSH: 7529
+  - parentParmId: 13
+    labelSH: 6674
+    valueSH: 1150
+  - parentParmId: 13
+    labelSH: 7667
+    valueSH: 7622
+  - parentParmId: 14
+    labelSH: 6698
+    valueSH: 7600
+  - parentParmId: 14
+    labelSH: 1008
+    valueSH: 7576
+  - parentParmId: 15
+    labelSH: 6333
+    valueSH: 7601
+  - parentParmId: 15
+    labelSH: 7547
+    valueSH: 7642
+  - parentParmId: 19
+    labelSH: 1107
+    valueSH: 7689
+  - parentParmId: 19
+    labelSH: 7686
+    valueSH: 7687
+  - parentParmId: 19
+    labelSH: 7673
+    valueSH: 7504
+  - parentParmId: 19
+    labelSH: 7531
+    valueSH: 7599
+  - parentParmId: 19
+    labelSH: 7586
+    valueSH: 7515
+  - parentParmId: 23
+    labelSH: 7502
+    valueSH: 6853
+  - parentParmId: 23
+    labelSH: 7720
+    valueSH: 7691
+  - parentParmId: 28
+    labelSH: 1525
+    valueSH: 2188
+  - parentParmId: 28
+    labelSH: 7685
+    valueSH: 7716
+  - parentParmId: 28
+    labelSH: 7717
+    valueSH: 7700
+  - parentParmId: 28
+    labelSH: 1370
+    valueSH: 7712
+  - parentParmId: 28
+    labelSH: 1043
+    valueSH: 7723
+  - parentParmId: 28
+    labelSH: 1808
+    valueSH: 7721
+  - parentParmId: 29
+    labelSH: 658
+    valueSH: 765
+  - parentParmId: 29
+    labelSH: 10
+    valueSH: 7666
+  - parentParmId: 31
+    labelSH: 7694
+    valueSH: 7701
+  - parentParmId: 31
+    labelSH: 7743
+    valueSH: 7744
+  - parentParmId: 31
+    labelSH: 7745
+    valueSH: 998
+  - parentParmId: 31
+    labelSH: 2126
+    valueSH: 1116
+  - parentParmId: 31
+    labelSH: 7678
+    valueSH: 7567
+  - parentParmId: 31
+    labelSH: 732
+    valueSH: 2124
+  - parentParmId: 32
+    labelSH: 7762
+    valueSH: 1115
+  - parentParmId: 32
+    labelSH: 7764
+    valueSH: 7765
+  - parentParmId: 32
+    labelSH: 2127
+    valueSH: 7679
+  - parentParmId: 32
+    labelSH: 7702
+    valueSH: 2187
+  - parentParmId: 32
+    labelSH: 7643
+    valueSH: 8195
+  - parentParmId: 32
+    labelSH: 7708
+    valueSH: 2128
+  - parentParmId: 32
+    labelSH: 7639
+    valueSH: 1372
+  - parentParmId: 33
+    labelSH: 5732
+    valueSH: 7454
+  - parentParmId: 33
+    labelSH: 7632
+    valueSH: 7587
+  - parentParmId: 34
+    labelSH: 7754
+    valueSH: 7751
+  - parentParmId: 34
+    labelSH: 7759
+    valueSH: 8370
+  - parentParmId: 37
+    labelSH: 2274
+    valueSH: 7758
+  - parentParmId: 37
+    labelSH: 7772
+    valueSH: 7767
+  - parentParmId: 37
+    labelSH: 7715
+    valueSH: 7534
+  - parentParmId: 38
+    labelSH: 7760
+    valueSH: 7714
+  - parentParmId: 38
+    labelSH: 7633
+    valueSH: 7690
+  - parentParmId: 38
+    labelSH: 7697
+    valueSH: 7726
+  - parentParmId: 38
+    labelSH: 1653
+    valueSH: 7543
+  - parentParmId: 38
+    labelSH: 7729
+    valueSH: 7749
+  - parentParmId: 38
+    labelSH: 8332
+    valueSH: 7755
+  - parentParmId: 50
+    labelSH: 7820
+    valueSH: 7795
+  - parentParmId: 50
+    labelSH: 7822
+    valueSH: 7825
+  - parentParmId: 50
+    labelSH: 7809
+    valueSH: 1141
+  - parentParmId: 50
+    labelSH: 7814
+    valueSH: 7829
+  - parentParmId: 50
+    labelSH: 7828
+    valueSH: 7827
+  - parentParmId: 50
+    labelSH: 7830
+    valueSH: 7833
+  - parentParmId: 50
+    labelSH: 7812
+    valueSH: 7831
+  - parentParmId: 52
+    labelSH: 960
+    valueSH: 7821
+  - parentParmId: 52
+    labelSH: 7818
+    valueSH: 7824
+  - parentParmId: 53
+    labelSH: 7806
+    valueSH: 7834
+  - parentParmId: 53
+    labelSH: 7808
+    valueSH: 7823
+  - parentParmId: 54
+    labelSH: 7844
+    valueSH: 7845
+  - parentParmId: 54
+    labelSH: 1691
+    valueSH: 7847
+  - parentParmId: 54
+    labelSH: 7848
+    valueSH: 7849
+  - parentParmId: 58
+    labelSH: 7866
+    valueSH: 7867
+  - parentParmId: 58
+    labelSH: 7868
+    valueSH: 7869
+  - parentParmId: 58
+    labelSH: 7776
+    valueSH: 7790
+  - parentParmId: 59
+    labelSH: 7739
+    valueSH: 1140
+  - parentParmId: 59
+    labelSH: 7832
+    valueSH: 7788
+  - parentParmId: 60
+    labelSH: 7856
+    valueSH: 7857
+  - parentParmId: 60
+    labelSH: 7882
+    valueSH: 7883
+  - parentParmId: 62
+    labelSH: 7892
+    valueSH: 7893
+  - parentParmId: 62
+    labelSH: 7902
+    valueSH: 7903
+  - parentParmId: 63
+    labelSH: 7900
+    valueSH: 7901
+  - parentParmId: 63
+    labelSH: 7861
+    valueSH: 7925
+  - parentParmId: 64
+    labelSH: 7872
+    valueSH: 7917
+  - parentParmId: 64
+    labelSH: 7924
+    valueSH: 7860
+  - parentParmId: 64
+    labelSH: 7912
+    valueSH: 7878
+  - parentParmId: 65
+    labelSH: 7880
+    valueSH: 7881
+  - parentParmId: 65
+    labelSH: 7922
+    valueSH: 7923
+  - parentParmId: 66
+    labelSH: 7928
+    valueSH: 7737
+  - parentParmId: 66
+    labelSH: 7931
+    valueSH: 7932
+  - parentParmId: 68
+    labelSH: 7941
+    valueSH: 7942
+  - parentParmId: 68
+    labelSH: 7951
+    valueSH: 7952
+  - parentParmId: 69
+    labelSH: 7949
+    valueSH: 7950
+  - parentParmId: 69
+    labelSH: 7982
+    valueSH: 7978
+  - parentParmId: 70
+    labelSH: 7957
+    valueSH: 7966
+  - parentParmId: 70
+    labelSH: 7977
+    valueSH: 7981
+  - parentParmId: 70
+    labelSH: 7961
+    valueSH: 7968
+  - parentParmId: 71
+    labelSH: 7971
+    valueSH: 7972
+  - parentParmId: 71
+    labelSH: 7973
+    valueSH: 7974
+  - parentParmId: 71
+    labelSH: 7975
+    valueSH: 7976
+  - parentParmId: 72
+    labelSH: 787
+    valueSH: 7964
+  - parentParmId: 72
+    labelSH: 7959
+    valueSH: 7960
+  - parentParmId: 73
+    labelSH: 7985
+    valueSH: 7986
+  - parentParmId: 73
+    labelSH: 7987
+    valueSH: 7988
+  - parentParmId: 74
+    labelSH: 7993
+    valueSH: 7994
+  - parentParmId: 74
+    labelSH: 7995
+    valueSH: 7996
+  - parentParmId: 76
+    labelSH: 8005
+    valueSH: 8006
+  - parentParmId: 76
+    labelSH: 8007
+    valueSH: 8008
+  - parentParmId: 78
+    labelSH: 8390
+    valueSH: 1838
+  - parentParmId: 78
+    labelSH: 8020
+    valueSH: 8021
+  - parentParmId: 79
+    labelSH: 8018
+    valueSH: 8019
+  - parentParmId: 79
+    labelSH: 8028
+    valueSH: 8029
+  - parentParmId: 80
+    labelSH: 8026
+    valueSH: 8027
+  - parentParmId: 80
+    labelSH: 8036
+    valueSH: 8037
+  - parentParmId: 81
+    labelSH: 7939
+    valueSH: 8051
+  - parentParmId: 81
+    labelSH: 8058
+    valueSH: 8055
+  - parentParmId: 81
+    labelSH: 8046
+    valueSH: 8015
+  - parentParmId: 82
+    labelSH: 1142
+    valueSH: 7926
+  - parentParmId: 82
+    labelSH: 7895
+    valueSH: 7775
+  _rootParameters: 0000000001000000020000000300000004000000
+  _parameterList:
+  - _unityIndex: 0
+    _name: stdswitcher4
+    _labelName: 
+    _help: 
+    _childParameterIDs: 
+    _choiceValue: 0
+    _intValues: 
+    _floatValues: []
+    _stringValues: []
+    _toggle: 0
+    _color: {r: 0, g: 0, b: 0, a: 0}
+    _gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    _animCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _choiceLabels: []
+    _choiceStringValues: []
+    _choiceIntValues: 
+    _parmInfo:
+      id: 0
+      parentId: -1
+      childIndex: 0
+      type: 11
+      typeInfoSH: 0
+      permissions: 0
+      tagCount: 0
+      size: 3
+      choiceCount: 0
+      nameSH: 7518
+      labelSH: 0
+      templateNameSH: 0
+      helpSH: 0
+      hasMin: 0
+      hasMax: 0
+      hasUIMin: 0
+      hasUIMax: 0
+      min: 0
+      max: 10
+      UIMin: 0
+      UIMax: 10
+      invisible: 0
+      disabled: 0
+      spare: 0
+      joinNext: 0
+      labelNone: 0
+      intValuesIndex: -1
+      floatValuesIndex: -1
+      stringValuesIndex: -1
+      choiceIndex: -1
+      isChildOfMultiParm: 0
+      instanceNum: -1
+      instanceLength: 0
+      instanceCount: 0
+      instanceStartOffset: -1
+      rampType: -1
+      visibilityConditionSH: 0
+      disabledConditionSH: 0
+    _showChildren: 0
+    _fileTypeInfo: 
+    _folderListChildrenProcessed: 3
+    _tabSelectedIndex: 0
+    _paramInputNode: {fileID: 0}
+    _hasAssetPathTag: 0
+  - _unityIndex: 1
+    _name: value1v
+    _labelName: Value
+    _help: 
+    _childParameterIDs: 
+    _choiceValue: 0
+    _intValues: 
+    _floatValues:
+    - 10
+    - 10
+    - 0
+    - 0
+    _stringValues: []
+    _toggle: 0
+    _color: {r: 0, g: 0, b: 0, a: 0}
+    _gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    _animCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _choiceLabels: []
+    _choiceStringValues: []
+    _choiceIntValues: 
+    _parmInfo:
+      id: 83
+      parentId: -1
+      childIndex: 76
+      type: 4
+      typeInfoSH: 0
+      permissions: 0
+      tagCount: 2
+      size: 4
+      choiceCount: 0
+      nameSH: 8001
+      labelSH: 8004
+      templateNameSH: 7835
+      helpSH: 7915
+      hasMin: 0
+      hasMax: 0
+      hasUIMin: 1
+      hasUIMax: 1
+      min: 0
+      max: 10
+      UIMin: 0
+      UIMax: 10
+      invisible: 0
+      disabled: 0
+      spare: 0
+      joinNext: 0
+      labelNone: 0
+      intValuesIndex: -1
+      floatValuesIndex: 30
+      stringValuesIndex: -1
+      choiceIndex: 126
+      isChildOfMultiParm: 0
+      instanceNum: -1
+      instanceLength: 0
+      instanceCount: 0
+      instanceStartOffset: -1
+      rampType: -1
+      visibilityConditionSH: 0
+      disabledConditionSH: 0
+    _showChildren: 0
+    _fileTypeInfo: 
+    _folderListChildrenProcessed: 0
+    _tabSelectedIndex: 0
+    _paramInputNode: {fileID: 0}
+    _hasAssetPathTag: 0
+  - _unityIndex: 2
+    _name: string2
+    _labelName: String
+    _help: 
+    _childParameterIDs: 
+    _choiceValue: 0
+    _intValues: 
+    _floatValues: []
+    _stringValues:
+    - Assets/Materials/Textures/Grass.jpg
+    _toggle: 0
+    _color: {r: 0, g: 0, b: 0, a: 0}
+    _gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    _animCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _choiceLabels: []
+    _choiceStringValues: []
+    _choiceIntValues: 
+    _parmInfo:
+      id: 84
+      parentId: -1
+      childIndex: 77
+      type: 6
+      typeInfoSH: 0
+      permissions: 0
+      tagCount: 2
+      size: 1
+      choiceCount: 0
+      nameSH: 8034
+      labelSH: 8049
+      templateNameSH: 7774
+      helpSH: 1755
+      hasMin: 0
+      hasMax: 0
+      hasUIMin: 0
+      hasUIMax: 0
+      min: 0
+      max: 10
+      UIMin: 0
+      UIMax: 10
+      invisible: 0
+      disabled: 0
+      spare: 0
+      joinNext: 0
+      labelNone: 0
+      intValuesIndex: -1
+      floatValuesIndex: -1
+      stringValuesIndex: 20
+      choiceIndex: 126
+      isChildOfMultiParm: 0
+      instanceNum: -1
+      instanceLength: 0
+      instanceCount: 0
+      instanceStartOffset: -1
+      rampType: -1
+      visibilityConditionSH: 0
+      disabledConditionSH: 0
+    _showChildren: 0
+    _fileTypeInfo: 
+    _folderListChildrenProcessed: 0
+    _tabSelectedIndex: 0
+    _paramInputNode: {fileID: 0}
+    _hasAssetPathTag: 0
+  - _unityIndex: 3
+    _name: value1v5
+    _labelName: Value
+    _help: 
+    _childParameterIDs: 
+    _choiceValue: 0
+    _intValues: 
+    _floatValues:
+    - 10
+    - 10
+    - 0
+    - 0
+    _stringValues: []
+    _toggle: 0
+    _color: {r: 0, g: 0, b: 0, a: 0}
+    _gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    _animCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _choiceLabels: []
+    _choiceStringValues: []
+    _choiceIntValues: 
+    _parmInfo:
+      id: 85
+      parentId: -1
+      childIndex: 78
+      type: 4
+      typeInfoSH: 0
+      permissions: 0
+      tagCount: 2
+      size: 4
+      choiceCount: 0
+      nameSH: 7919
+      labelSH: 8059
+      templateNameSH: 7914
+      helpSH: 8014
+      hasMin: 0
+      hasMax: 0
+      hasUIMin: 1
+      hasUIMax: 1
+      min: 0
+      max: 10
+      UIMin: 0
+      UIMax: 10
+      invisible: 0
+      disabled: 0
+      spare: 0
+      joinNext: 0
+      labelNone: 0
+      intValuesIndex: -1
+      floatValuesIndex: 34
+      stringValuesIndex: -1
+      choiceIndex: 126
+      isChildOfMultiParm: 0
+      instanceNum: -1
+      instanceLength: 0
+      instanceCount: 0
+      instanceStartOffset: -1
+      rampType: -1
+      visibilityConditionSH: 0
+      disabledConditionSH: 0
+    _showChildren: 0
+    _fileTypeInfo: 
+    _folderListChildrenProcessed: 0
+    _tabSelectedIndex: 0
+    _paramInputNode: {fileID: 0}
+    _hasAssetPathTag: 0
+  - _unityIndex: 4
+    _name: string3
+    _labelName: String
+    _help: 
+    _childParameterIDs: 
+    _choiceValue: 0
+    _intValues: 
+    _floatValues: []
+    _stringValues:
+    - Assets/Materials/Textures/Ground.jpg
+    _toggle: 0
+    _color: {r: 0, g: 0, b: 0, a: 0}
+    _gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    _animCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _choiceLabels: []
+    _choiceStringValues: []
+    _choiceIntValues: 
+    _parmInfo:
+      id: 86
+      parentId: -1
+      childIndex: 79
+      type: 6
+      typeInfoSH: 0
+      permissions: 0
+      tagCount: 2
+      size: 1
+      choiceCount: 0
+      nameSH: 7797
+      labelSH: 7611
+      templateNameSH: 7505
+      helpSH: 7522
+      hasMin: 0
+      hasMax: 0
+      hasUIMin: 0
+      hasUIMax: 0
+      min: 0
+      max: 10
+      UIMin: 0
+      UIMax: 10
+      invisible: 0
+      disabled: 0
+      spare: 0
+      joinNext: 0
+      labelNone: 0
+      intValuesIndex: -1
+      floatValuesIndex: -1
+      stringValuesIndex: 21
+      choiceIndex: 126
+      isChildOfMultiParm: 0
+      instanceNum: -1
+      instanceLength: 0
+      instanceCount: 0
+      instanceStartOffset: -1
+      rampType: -1
+      visibilityConditionSH: 0
+      disabledConditionSH: 0
+    _showChildren: 0
+    _fileTypeInfo: 
+    _folderListChildrenProcessed: 0
+    _tabSelectedIndex: 0
+    _paramInputNode: {fileID: 0}
+    _hasAssetPathTag: 0
+  _parameterModifiers: []
+  _regenerateParameters: 0
+  _presetData: 235053495f5052455345540a76657273696f6e20322e30610a6f7076616c7565730a7b0a76657273696f6e20302e380a7374647377697463686572095b2030096c6f636b733d30205d092809300930093009290a784f7264095b2030096c6f636b733d30205d092809227372742209290a724f7264095b2030096c6f636b733d30205d0928092278797a2209290a74095b2030096c6f636b733d30205d092809300930093009290a72095b2030096c6f636b733d30205d09280930092d30093009290a73095b2030096c6f636b733d30205d092809310931093109290a70095b2030096c6f636b733d30205d092809300930093009290a7072095b2030096c6f636b733d30205d092809300930093009290a7363616c65095b2030096c6f636b733d30205d0928093109290a7072655f78666f726d095b2030096c6f636b733d30205d0928093009290a6b656570706f73095b2030096c6f636b733d30205d092809226f66662209290a6368696c64636f6d70095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f6f6e095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b617470617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b75706f626a70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b7570095b2030096c6f636b733d30205d0928096f6e09290a706174686f626a70617468095b2030096c6f636b733d30205d092809222209290a726f6c6c095b2030096c6f636b733d30205d0928093009290a706f73095b2030096c6f636b733d30205d0928093009290a757061726d74797065095b2030096c6f636b733d30205d092809226172632209290a706174686f7269656e74095b2030096c6f636b733d30205d0928093109290a7570095b2030096c6f636b733d30205d092809300931093009290a62616e6b095b2030096c6f636b733d30205d0928093009290a73686f705f6d6174657269616c70617468095b2030096c6f636b733d30205d092809222209290a73686f705f6d6174657269616c6f707473095b2030096c6f636b733d30205d0928093009290a74646973706c6179095b2030096c6f636b733d30205d092809226f66662209290a646973706c6179095b2030096c6f636b733d30205d0928093109290a7573655f64636f6c6f72095b2030096c6f636b733d30205d092809226f66662209290a64636f6c6f72095b2030096c6f636b733d30205d092809310931093109290a7069636b696e67095b2030096c6f636b733d30205d092809226f6e2209290a7069636b736372697074095b2030096c6f636b733d30205d092809222209290a63616368696e67095b2030096c6f636b733d30205d092809226f6e2209290a76706f72745f73686164656f70656e095b2030096c6f636b733d30205d092809226f66662209290a76706f72745f646973706c61796173737562646976095b2030096c6f636b733d30205d092809226f66662209290a76706f72745f6f6e696f6e736b696e095b2030096c6f636b733d30205d092809226f66662209290a72656e64657261626c65095b2030096c6f636b733d30205d092809226f6e2209290a737464737769746368657234095b2030096c6f636b733d30205d092809300930093009290a76696577706f72746c6f64095b2030096c6f636b733d30205d0928092266756c6c2209290a766d5f72656e6465727669736962696c697479095b2030096c6f636b733d30205d0928092a09290a766d5f72656e64657273756264095b2030096c6f636b733d30205d092809226f66662209290a766d5f737562647374796c65095b2030096c6f636b733d30205d0928096d616e7472615f636174636c61726b09290a766d5f7375626467726f7570095b2030096c6f636b733d30205d092809222209290a766d5f6f73645f7175616c697479095b2030096c6f636b733d30205d0928093109290a766d5f6f73645f767478696e74657270095b2030096c6f636b733d30205d0928093209290a766d5f6f73645f66766172696e74657270095b2030096c6f636b733d30205d0928093409290a666f6c64657230095b2030096c6f636b733d30205d0928093009300930093009290a63617465676f72696573095b2030096c6f636b733d30205d092809222209290a7265666c6563746d61736b095b2030096c6f636b733d30205d0928092a09290a726566726163746d61736b095b2030096c6f636b733d30205d0928092a09290a6c696768746d61736b095b2030096c6f636b733d30205d0928092a09290a6c6967687463617465676f72696573095b2030096c6f636b733d30205d0928092a09290a766d5f6c7065746167095b2030096c6f636b733d30205d092809222209290a766d5f766f6c756d6566696c746572095b2030096c6f636b733d30205d092809626f7809290a766d5f766f6c756d6566696c7465727769647468095b2030096c6f636b733d30205d0928093109290a766d5f6d61747465095b2030096c6f636b733d30205d092809226f66662209290a766d5f7261797368616465095b2030096c6f636b733d30205d092809226f66662209290a67656f5f76656c6f63697479626c7572095b2030096c6f636b733d30205d092809226f66662209290a67656f5f616363656c617474726962757465095b2030096c6f636b733d30205d092809616363656c09290a766d5f73686164696e677175616c697479095b2030096c6f636b733d30205d0928093109290a766d5f666c61746e657373095b2030096c6f636b733d30205d092809302e30353030303030303030303030303030303309290a766d5f72617970726564696365095b2030096c6f636b733d30205d0928093009290a766d5f637572766573757266616365095b2030096c6f636b733d30205d092809226f66662209290a766d5f726d6261636b66616365095b2030096c6f636b733d30205d092809226f66662209290a73686f705f67656f6d6574727970617468095b2030096c6f636b733d30205d092809222209290a766d5f666f72636567656f6d65747279095b2030096c6f636b733d30205d092809226f6e2209290a766d5f72656e64657273756264637572766573095b2030096c6f636b733d30205d092809226f66662209290a766d5f72656e646572706f696e7473095b2030096c6f636b733d30205d0928093209290a766d5f72656e646572706f696e74736173095b2030096c6f636b733d30205d0928093009290a766d5f7573656e666f72706f696e7473095b2030096c6f636b733d30205d092809226f66662209290a766d5f706f696e747363616c65095b2030096c6f636b733d30205d0928093109290a766d5f707363616c656469616d65746572095b2030096c6f636b733d30205d092809226f66662209290a766d5f6d657461766f6c756d65095b2030096c6f636b733d30205d092809226f66662209290a766d5f636f76696e67095b2030096c6f636b733d30205d0928093109290a766d5f6d6174657269616c6f76657272696465095b2030096c6f636b733d30205d092809636f6d7061637409290a766d5f6f7665727269646564657461696c095b2030096c6f636b733d30205d092809226f66662209290a766d5f70726f63757365726f6f747472616e73666f726d095b2030096c6f636b733d30205d092809226f6e2209290a76616c75653176095b2030096c6f636b733d30205d09280931300931300930093009290a737472696e6732095b2030096c6f636b733d30205d0928094173736574732f4d6174657269616c732f54657874757265732f47726173732e6a706709290a76616c7565317635095b2030096c6f636b733d30205d09280931300931300930093009290a737472696e6733095b2030096c6f636b733d30205d0928094173736574732f4d6174657269616c732f54657874757265732f47726f756e642e6a706709290a7d0a
+  _defaultPresetData: 235053495f5052455345540a76657273696f6e20322e30610a6f7076616c7565730a7b0a76657273696f6e20302e380a7374647377697463686572095b2030096c6f636b733d30205d092809300930093009290a784f7264095b2030096c6f636b733d30205d092809227372742209290a724f7264095b2030096c6f636b733d30205d0928092278797a2209290a74095b2030096c6f636b733d30205d092809300930093009290a72095b2030096c6f636b733d30205d092809300930093009290a73095b2030096c6f636b733d30205d092809310931093109290a70095b2030096c6f636b733d30205d092809300930093009290a7072095b2030096c6f636b733d30205d092809300930093009290a7363616c65095b2030096c6f636b733d30205d0928093109290a7072655f78666f726d095b2030096c6f636b733d30205d0928093009290a6b656570706f73095b2030096c6f636b733d30205d092809226f66662209290a6368696c64636f6d70095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f6f6e095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b617470617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b75706f626a70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b7570095b2030096c6f636b733d30205d0928096f6e09290a706174686f626a70617468095b2030096c6f636b733d30205d092809222209290a726f6c6c095b2030096c6f636b733d30205d0928093009290a706f73095b2030096c6f636b733d30205d0928093009290a757061726d74797065095b2030096c6f636b733d30205d092809226172632209290a706174686f7269656e74095b2030096c6f636b733d30205d0928093109290a7570095b2030096c6f636b733d30205d092809300931093009290a62616e6b095b2030096c6f636b733d30205d0928093009290a73686f705f6d6174657269616c70617468095b2030096c6f636b733d30205d092809222209290a73686f705f6d6174657269616c6f707473095b2030096c6f636b733d30205d0928093009290a74646973706c6179095b2030096c6f636b733d30205d092809226f66662209290a646973706c6179095b2030096c6f636b733d30205d0928093109290a7573655f64636f6c6f72095b2030096c6f636b733d30205d092809226f66662209290a64636f6c6f72095b2030096c6f636b733d30205d092809310931093109290a7069636b696e67095b2030096c6f636b733d30205d092809226f6e2209290a7069636b736372697074095b2030096c6f636b733d30205d092809222209290a63616368696e67095b2030096c6f636b733d30205d092809226f6e2209290a76706f72745f73686164656f70656e095b2030096c6f636b733d30205d092809226f66662209290a76706f72745f646973706c61796173737562646976095b2030096c6f636b733d30205d092809226f66662209290a76706f72745f6f6e696f6e736b696e095b2030096c6f636b733d30205d092809226f66662209290a72656e64657261626c65095b2030096c6f636b733d30205d092809226f6e2209290a737464737769746368657234095b2030096c6f636b733d30205d092809300930093009290a76696577706f72746c6f64095b2030096c6f636b733d30205d0928092266756c6c2209290a766d5f72656e6465727669736962696c697479095b2030096c6f636b733d30205d0928092a09290a766d5f72656e64657273756264095b2030096c6f636b733d30205d092809226f66662209290a766d5f737562647374796c65095b2030096c6f636b733d30205d0928096d616e7472615f636174636c61726b09290a766d5f7375626467726f7570095b2030096c6f636b733d30205d092809222209290a766d5f6f73645f7175616c697479095b2030096c6f636b733d30205d0928093109290a766d5f6f73645f767478696e74657270095b2030096c6f636b733d30205d0928093209290a766d5f6f73645f66766172696e74657270095b2030096c6f636b733d30205d0928093409290a666f6c64657230095b2030096c6f636b733d30205d0928093009300930093009290a63617465676f72696573095b2030096c6f636b733d30205d092809222209290a7265666c6563746d61736b095b2030096c6f636b733d30205d0928092a09290a726566726163746d61736b095b2030096c6f636b733d30205d0928092a09290a6c696768746d61736b095b2030096c6f636b733d30205d0928092a09290a6c6967687463617465676f72696573095b2030096c6f636b733d30205d0928092a09290a766d5f6c7065746167095b2030096c6f636b733d30205d092809222209290a766d5f766f6c756d6566696c746572095b2030096c6f636b733d30205d092809626f7809290a766d5f766f6c756d6566696c7465727769647468095b2030096c6f636b733d30205d0928093109290a766d5f6d61747465095b2030096c6f636b733d30205d092809226f66662209290a766d5f7261797368616465095b2030096c6f636b733d30205d092809226f66662209290a67656f5f76656c6f63697479626c7572095b2030096c6f636b733d30205d092809226f66662209290a67656f5f616363656c617474726962757465095b2030096c6f636b733d30205d092809616363656c09290a766d5f73686164696e677175616c697479095b2030096c6f636b733d30205d0928093109290a766d5f666c61746e657373095b2030096c6f636b733d30205d092809302e30353030303030303030303030303030303309290a766d5f72617970726564696365095b2030096c6f636b733d30205d0928093009290a766d5f637572766573757266616365095b2030096c6f636b733d30205d092809226f66662209290a766d5f726d6261636b66616365095b2030096c6f636b733d30205d092809226f66662209290a73686f705f67656f6d6574727970617468095b2030096c6f636b733d30205d092809222209290a766d5f666f72636567656f6d65747279095b2030096c6f636b733d30205d092809226f6e2209290a766d5f72656e64657273756264637572766573095b2030096c6f636b733d30205d092809226f66662209290a766d5f72656e646572706f696e7473095b2030096c6f636b733d30205d0928093209290a766d5f72656e646572706f696e74736173095b2030096c6f636b733d30205d0928093009290a766d5f7573656e666f72706f696e7473095b2030096c6f636b733d30205d092809226f66662209290a766d5f706f696e747363616c65095b2030096c6f636b733d30205d0928093109290a766d5f707363616c656469616d65746572095b2030096c6f636b733d30205d092809226f66662209290a766d5f6d657461766f6c756d65095b2030096c6f636b733d30205d092809226f66662209290a766d5f636f76696e67095b2030096c6f636b733d30205d0928093109290a766d5f6d6174657269616c6f76657272696465095b2030096c6f636b733d30205d092809636f6d7061637409290a766d5f6f7665727269646564657461696c095b2030096c6f636b733d30205d092809226f66662209290a766d5f70726f63757365726f6f747472616e73666f726d095b2030096c6f636b733d30205d092809226f6e2209290a76616c75653176095b2030096c6f636b733d30205d09280931300931300930093009290a737472696e6732095b2030096c6f636b733d30205d092809222209290a76616c7565317635095b2030096c6f636b733d30205d09280931300931300930093009290a737472696e6733095b2030096c6f636b733d30205d092809222209290a7d0a
+  _validParameters: 1
+  _showParameters: 1
+--- !u!1 &1240512364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1240512367}
+  - component: {fileID: 1240512366}
+  - component: {fileID: 1240512365}
+  m_Layer: 0
+  m_Name: antu3_heightfield1_grass_texture1_grass_texture1_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!154 &1240512365
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240512364}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 830f33da0a3a7ae429b46358d7bd95b6, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &1240512366
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240512364}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 830f33da0a3a7ae429b46358d7bd95b6, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 1
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10650, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 1
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!4 &1240512367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240512364}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -512, y: -62.931477, z: -512}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1312113957}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1312113955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312113957}
+  - component: {fileID: 1312113956}
+  m_Layer: 0
+  m_Name: antu3_heightfield1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1312113956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312113955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d22482c65bf0a248a742275874c35f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _houdiniAsset: {fileID: 1683983487}
+  _bakeTargets: []
+--- !u!4 &1312113957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312113955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1683983488}
+  - {fileID: 1240512367}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1370987544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1370987547}
+  - component: {fileID: 1370987546}
+  - component: {fileID: 1370987545}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1370987545
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370987544}
+  m_Enabled: 1
+--- !u!20 &1370987546
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370987544}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1370987547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370987544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1495231387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ce3a7cc3f38404592fdd27226cb0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partID: 3
+  _partName: grass_texture1_3
+  _objectNodeID: 31
+  _geoID: 5
+  _partType: 2
+  _geoNode: {fileID: 1129952956}
+  _isAttribInstancer: 0
+  _isPartInstanced: 0
+  _partPointCount: 1
+  _isObjectInstancer: 0
+  _objectInstancesGenerated: 0
+  _objectInstanceInfos: []
+  _terrainOffsetPosition: {x: 0, y: 0, z: 0}
+  _assetDBTerrainData: {fileID: 0}
+  _isPartEditable: 0
+  _partOutputType: 2
+  _curve: {fileID: 0}
+  _attributesStore: {fileID: 0}
+  _haveInstancesBeenGenerated: 0
+  _meshVertexCount: 1
+  _generatedOutput:
+    _outputData:
+      _gameObject: {fileID: 0}
+      _renderMaterials: []
+      _colliders: []
+    _childOutputs: []
+  _volumeLayerName: grass
+--- !u!114 &1579905275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d064048945a579428d136799401f238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objName: antu3_heightfield1
+  _parentAsset: {fileID: 1683983487}
+  _objectInfo:
+    nameSH: 7598
+    objectInstancePathSH: 0
+    hasTransformChanged: 0
+    haveGeosChanged: 1
+    isVisible: 1
+    isInstancer: 0
+    isInstanced: 0
+    geoCount: 0
+    nodeId: 31
+    objectToInstanceId: -1
+  _geoNodes:
+  - {fileID: 1129952956}
+--- !u!114 &1664142439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ce3a7cc3f38404592fdd27226cb0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partID: 2
+  _partName: grass_texture1_2
+  _objectNodeID: 31
+  _geoID: 5
+  _partType: 2
+  _geoNode: {fileID: 1129952956}
+  _isAttribInstancer: 0
+  _isPartInstanced: 0
+  _partPointCount: 1
+  _isObjectInstancer: 0
+  _objectInstancesGenerated: 0
+  _objectInstanceInfos: []
+  _terrainOffsetPosition: {x: 0, y: 0, z: 0}
+  _assetDBTerrainData: {fileID: 0}
+  _isPartEditable: 0
+  _partOutputType: 2
+  _curve: {fileID: 0}
+  _attributesStore: {fileID: 0}
+  _haveInstancesBeenGenerated: 0
+  _meshVertexCount: 1
+  _generatedOutput:
+    _outputData:
+      _gameObject: {fileID: 0}
+      _renderMaterials: []
+      _colliders: []
+    _childOutputs: []
+  _volumeLayerName: base
+--- !u!1 &1683983486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1683983488}
+  - component: {fileID: 1683983487}
+  m_Layer: 0
+  m_Name: HDA_Data
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1683983487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683983486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740823ef63d3f6d468aaab5799b16654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assetType: 1
+  _assetInfo:
+    nodeId: 31
+    objectNodeId: 31
+    hasEverCooked: 1
+    nameSH: 2137
+    labelSH: 7864
+    filePathSH: 7662
+    versionSH: 1065
+    fullOpNameSH: 903
+    helpTextSH: 844
+    helpURLSH: 1039
+    objectCount: -1
+    handleCount: 0
+    transformInputCount: 0
+    geoInputCount: 0
+    geoOutputCount: 0
+    haveObjectsChanged: 0
+    haveMaterialsChanged: 0
+  _nodeInfo:
+    id: 31
+    parentId: 2
+    nameSH: 7546
+    type: 1
+    isValid: 1
+    totalCookCount: 2
+    uniqueHoudiniNodeId: 1591
+    internalNodePathSH: 7637
+    parmCount: 87
+    parmIntValueCount: 38
+    parmFloatValueCount: 38
+    parmStringValueCount: 22
+    parmChoiceCount: 126
+    childNodeCount: 8
+    inputCount: 0
+    outputCount: 1
+    createdPostAssetLoad: 1
+    isTimeDependent: 0
+  _assetName: antu3_heightfield1
+  _assetOpName: Object/antu3_heightfield1
+  _assetHelp: 
+  _assetID: 31
+  _assetPath: Assets/HDAs/heightfield_test.hda
+  _loadAssetFromMemory: 0
+  _assetFileObject: {fileID: 102900000, guid: 75c29ea8c43457942a1040483aedc763, type: 3}
+  _objectNodes:
+  - {fileID: 1579905275}
+  _rootGameObject: {fileID: 1312113955}
+  _materialCache: []
+  _parameters: {fileID: 1169530659}
+  _lastSyncedTransformMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  _assetCacheFolderPath: Assets/HoudiniEngineAssetCache/Working/heightfield_test
+  _subassetNames:
+  - Object/antu3_heightfield1
+  _selectedSubassetIndex: 0
+  _totalCookCount: 4
+  _requestBuildAction: 0
+  _checkParameterChangeForCook: 0
+  _skipCookCheck: 0
+  _uploadParameters: 1
+  _forceUploadInputs: 0
+  _upstreamCookChanged: 0
+  _cookStatus: 0
+  _lastCookResult: 1
+  _isCookingAssetReloaded: 0
+  _sessionID: 2228323336704
+  _uiLocked: 1
+  _showHDAOptions: 0
+  _showGenerateSection: 1
+  _showBakeSection: 0
+  _showEventsSection: 0
+  _showCurvesSection: 0
+  _showInputNodesSection: 0
+  _showToolsSection: 0
+  _showTerrainSection: 0
+  _instanceInputUIState: {fileID: 1047196672}
+  _reloadEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _cookedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _bakedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _reloadDataEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _cookedDataEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _bakedDataEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _preAssetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _downstreamConnectionCookedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _generateUVs: 0
+  _generateTangents: 1
+  _generateNormals: 1
+  _pushTransformToHoudini: 1
+  _transformChangeTriggersCooks: 0
+  _cookingTriggersDownCooks: 1
+  _autoCookOnParameterChange: 1
+  _ignoreNonDisplayNodes: 0
+  _generateMeshUsingPoints: 0
+  _useLODGroups: 1
+  _splitGeosByGroup: 0
+  _sessionSyncAutoCook: 1
+  _bakeUpdateKeepPreviousTransformValues: 0
+  _curveEditorEnabled: 1
+  _curves: []
+  _curveDrawCollision: 0
+  _curveDrawColliders: []
+  _curveDrawLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  _curveProjectMaxDistance: 1000
+  _curveProjectDirection: {x: 0, y: -1, z: 0}
+  _inputNodes: []
+  _handles: []
+  _handlesEnabled: 1
+  _volumeCaches:
+  - {fileID: 701401755}
+  _attributeStores: []
+  _editableNodesToolsEnabled: 0
+  _toolsInfo: {fileID: 253456318}
+--- !u!4 &1683983488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683983486}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1312113957}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1855357022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ce3a7cc3f38404592fdd27226cb0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partID: 1
+  _partName: grass_texture1_1
+  _objectNodeID: 31
+  _geoID: 5
+  _partType: 2
+  _geoNode: {fileID: 1129952956}
+  _isAttribInstancer: 0
+  _isPartInstanced: 0
+  _partPointCount: 1
+  _isObjectInstancer: 0
+  _objectInstancesGenerated: 0
+  _objectInstanceInfos: []
+  _terrainOffsetPosition: {x: 0, y: 0, z: 0}
+  _assetDBTerrainData: {fileID: 0}
+  _isPartEditable: 0
+  _partOutputType: 2
+  _curve: {fileID: 0}
+  _attributesStore: {fileID: 0}
+  _haveInstancesBeenGenerated: 0
+  _meshVertexCount: 1
+  _generatedOutput:
+    _outputData:
+      _gameObject: {fileID: 0}
+      _renderMaterials: []
+      _colliders: []
+    _childOutputs: []
+  _volumeLayerName: mask

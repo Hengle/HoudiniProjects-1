@@ -70,7 +70,7 @@ namespace HoudiniEngineUnity
 	{
 	    get
 	    {
-		bool bValue = false;
+		bool bValue = true;
 		HEU_PluginStorage.Instance.Get("HAPI_CookingTriggersDownCooks", out bValue, bValue);
 		return bValue;
 	    }
@@ -868,6 +868,20 @@ namespace HoudiniEngineUnity
 	    set
 	    {
 		HEU_PluginStorage.Instance.Set("HAPI_SessionSyncAutoCook", value);
+	    }
+	}
+
+	public static bool WriteCookLogs
+	{
+	    get
+	    {
+		bool enabled = false;
+		HEU_PluginStorage.Instance.Get("HAPI_WriteCookLogs", out enabled, enabled);
+		return enabled;
+	    }
+	    set
+	    {
+		HEU_PluginStorage.Instance.Set("HAPI_WriteCookLogs", value);
 	    }
 	}
     }

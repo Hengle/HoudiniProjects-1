@@ -70,6 +70,7 @@ namespace HoudiniEngineUnity
 	static HEU_Platform()
 	{
 	    // This gets set whenever Unity initializes or there is a code refresh.
+            SetHapiClientName();
 	    SetHoudiniEnginePath();
 	}
 
@@ -185,6 +186,14 @@ namespace HoudiniEngineUnity
 	    }
 	    return HAPIPath;
 	}
+
+        /// <summary>
+        /// Sets the HAPI_CLIENT_NAME environment variable
+        public static void SetHapiClientName()
+        {
+            System.Environment.SetEnvironmentVariable(
+                HEU_Defines.HAPI_ENV_CLIENT_NAME, "unity");
+        }
 
 	/// <summary>
 	/// Find the Houdini Engine libraries, and add the Houdini Engine path to the system path.
@@ -460,6 +469,11 @@ namespace HoudiniEngineUnity
 		return dirInfo.Exists;
 	    }
 	    return false;
+	}
+
+	public static string GetParentDirectory(string inPath)
+	{
+	    return Directory.GetParent(inPath).FullName;
 	}
 
 	public static string GetFullPath(string inPath)

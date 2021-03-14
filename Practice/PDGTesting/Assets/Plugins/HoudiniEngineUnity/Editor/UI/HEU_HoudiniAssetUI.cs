@@ -734,6 +734,10 @@ namespace HoudiniEngineUnity
 				EditorGUILayout.PropertyField(bakeTargetsProp, _dragAndDropField, true);
 			    }
 			}
+
+			HEU_EditorUI.BeginSimpleSection("Bake Update");
+			HEU_EditorUI.DrawPropertyField(assetObject, "_bakeUpdateKeepPreviousTransformValues", "Keep Previous Transform Values", "Copy previous transform values when doing a Bake Update.");
+			HEU_EditorUI.EndSimpleSection();
 		    }
 		}
 	    }
@@ -777,18 +781,32 @@ namespace HoudiniEngineUnity
 		{
 		    HEU_EditorUI.DrawSeparator();
 
+		    SerializedProperty reloadDataEvent = assetObject.FindProperty("_reloadDataEvent");
+		    EditorGUILayout.PropertyField(reloadDataEvent, new GUIContent("Rebuild Events"));
+
 		    SerializedProperty reloadEvent = assetObject.FindProperty("_reloadEvent");
-		    EditorGUILayout.PropertyField(reloadEvent, new GUIContent("Rebuild Events"));
+		    EditorGUILayout.PropertyField(reloadEvent, new GUIContent("Rebuild Events (OBSOLETE)"));
 
 		    HEU_EditorUI.DrawSeparator();
+
+		    SerializedProperty recookDataEvent = assetObject.FindProperty("_cookedDataEvent");
+		    EditorGUILayout.PropertyField(recookDataEvent, new GUIContent("Cooked Events"));
 
 		    SerializedProperty recookEvent = assetObject.FindProperty("_cookedEvent");
-		    EditorGUILayout.PropertyField(recookEvent, new GUIContent("Cooked Events"));
+		    EditorGUILayout.PropertyField(recookEvent, new GUIContent("Cooked Events (OBSOLETE)"));
 
 		    HEU_EditorUI.DrawSeparator();
 
+		    SerializedProperty bakedDataEvent = assetObject.FindProperty("_bakedDataEvent");
+		    EditorGUILayout.PropertyField(bakedDataEvent, new GUIContent("Baked Events"));
+
 		    SerializedProperty bakedEvent = assetObject.FindProperty("_bakedEvent");
-		    EditorGUILayout.PropertyField(bakedEvent, new GUIContent("Baked Events"));
+		    EditorGUILayout.PropertyField(bakedEvent, new GUIContent("Baked Events (OBSOLETE)"));
+
+		    HEU_EditorUI.DrawSeparator();
+
+		    SerializedProperty preAssetEvent = assetObject.FindProperty("_preAssetEvent");
+		    EditorGUILayout.PropertyField(preAssetEvent, new GUIContent("Pre-Asset Events"));
 		}
 	    }
 
