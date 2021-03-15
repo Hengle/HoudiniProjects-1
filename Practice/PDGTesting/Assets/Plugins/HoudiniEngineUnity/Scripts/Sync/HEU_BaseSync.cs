@@ -602,10 +602,10 @@ namespace HoudiniEngineUnity
 			    }
 
 			    HEU_AssetDatabase.CreateObjectInAssetCacheFolder(terrainlayer, exportTerrainDataPath, null, layerFileNameWithExt, null);
-			
 			}
 
 			terrainData.terrainLayers = finalTerrainLayers.ToArray();
+
 		    }
 
 #else
@@ -683,6 +683,8 @@ namespace HoudiniEngineUnity
 		    SetOutputVisiblity(terrainBuffers[t]);
 		}
 	    }
+            
+            HEU_AssetDatabase.SaveAndRefreshDatabase();
 	}
 
 	private void GenerateMesh(HAPI_NodeId cookNodeId, List<HEU_LoadBufferMesh> meshBuffers)
