@@ -1,3 +1,4 @@
 CharacterModelling/backup/*
 *.fbx
 *.abc
+!CharacterModelling/fbx/School_Anime_Pack/*
