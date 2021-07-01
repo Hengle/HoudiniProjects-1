@@ -2,3 +2,7 @@ CharacterModelling/backup/*
 *.fbx
 *.abc
 !CharacterModelling/fbx/School_Anime_Pack/*
+!CharacterModelling/fbx/School_Anime_Pack/model_01/*
+!CharacterModelling/fbx/School_Anime_Pack/model_02/*
+!CharacterModelling/fbx/School_Anime_Pack/model_03/*
+!CharacterModelling/fbx/School_Anime_Pack/model_04/*
