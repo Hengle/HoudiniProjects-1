@@ -1,19 +1,6 @@
 {
-    "employees": [
-        {
-            "department": "Marketing",
-            "name": "John Doe",
-            "place": "Remote"
-        },
-        {
-            "department": "Software Engineering",
-            "name": "Jane Doe",
-            "place": "Remote"
-        },
-        {
-            "department": "Software Engineering",
-            "name": "Don Joe",
-            "place": "Office"
-        }
-    ]
+    "animation_name": "attack_combo",
+    "frame_start": 1,
+    "frame_end": 150,
+    "events": []
 }
