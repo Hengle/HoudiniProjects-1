@@ -2,5 +2,78 @@
     "animation_name": "attack_combo",
     "frame_start": 1,
     "frame_end": 150,
-    "events": []
+    "events": [
+        {
+            "frame": 1.0,
+            "has_transformation": true,
+            "has_data": true,
+            "vfx_1_name": ""
+        },
+        {
+            "frame": 20.0,
+            "has_transformation": true,
+            "has_data": true,
+            "vfx_1_name": ""
+        },
+        {
+            "frame": 30.0,
+            "has_transformation": true,
+            "has_data": false,
+            "vfx_1_name": "Content/Ps/MyPS.uasset"
+        },
+        {
+            "frame": 40.0,
+            "has_transformation": true,
+            "has_data": true,
+            "vfx_1_name": ""
+        },
+        {
+            "frame": 50.0,
+            "has_transformation": true,
+            "has_data": false,
+            "vfx_1_name": "Content/Ps/MyPS.uasset"
+        },
+        {
+            "frame": 70.0,
+            "has_transformation": true,
+            "has_data": true,
+            "vfx_1_name": ""
+        },
+        {
+            "frame": 80.0,
+            "has_transformation": true,
+            "has_data": false,
+            "vfx_1_name": "Content/Ps/MyPS.uasset"
+        },
+        {
+            "frame": 90.0,
+            "has_transformation": true,
+            "has_data": true,
+            "vfx_1_name": ""
+        },
+        {
+            "frame": 110.0,
+            "has_transformation": true,
+            "has_data": false,
+            "vfx_1_name": "Content/Ps/MyPS.uasset"
+        },
+        {
+            "frame": 120.0,
+            "has_transformation": true,
+            "has_data": true,
+            "vfx_1_name": ""
+        },
+        {
+            "frame": 130.0,
+            "has_transformation": true,
+            "has_data": true,
+            "vfx_1_name": ""
+        },
+        {
+            "frame": 150.0,
+            "has_transformation": true,
+            "has_data": false,
+            "vfx_1_name": "Content/Ps/MyPS.uasset"
+        }
+    ]
 }
