@@ -7,73 +7,125 @@
             "frame": 1.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": ""
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [
+                "EnableHitbox"
+            ],
+            "vfx": [
+                "attack_vfx"
+            ]
         },
         {
             "frame": 20.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": ""
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [
+                "EnableHitbox"
+            ],
+            "vfx": [
+                "attack_vfx"
+            ]
         },
         {
             "frame": 30.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset"
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [],
+            "vfx": []
         },
         {
             "frame": 40.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": ""
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [
+                "EnableHitbox"
+            ],
+            "vfx": [
+                "attack_vfx"
+            ]
         },
         {
             "frame": 50.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset"
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [],
+            "vfx": []
         },
         {
             "frame": 70.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": ""
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [
+                "EnableHitbox"
+            ],
+            "vfx": [
+                "attack_vfx"
+            ]
         },
         {
             "frame": 80.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset"
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [],
+            "vfx": []
         },
         {
             "frame": 90.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": ""
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [
+                "EnableHitbox"
+            ],
+            "vfx": [
+                "attack_vfx"
+            ]
         },
         {
             "frame": 110.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset"
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [],
+            "vfx": []
         },
         {
             "frame": 120.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": ""
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [
+                "EnableHitbox"
+            ],
+            "vfx": [
+                "attack_vfx"
+            ]
         },
         {
             "frame": 130.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": ""
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [
+                "EnableHitbox"
+            ],
+            "vfx": [
+                "attack_vfx"
+            ]
         },
         {
             "frame": 150.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset"
+            "vfx_1_name": "Content/Ps/MyPS.uasset",
+            "events": [],
+            "vfx": []
         }
     ]
 }
