@@ -9,7 +9,10 @@
             "has_data": true,
             "vfx_1_name": "Content/Ps/MyPS.uasset",
             "events": [
-                "EnableHitbox"
+                {
+                    "event_name": "EnableHitbox",
+                    "event_arg": ""
+                }
             ],
             "vfx": [
                 "attack_vfx"
@@ -21,7 +24,10 @@
             "has_data": true,
             "vfx_1_name": "Content/Ps/MyPS.uasset",
             "events": [
-                "EnableHitbox"
+                {
+                    "event_name": "EnableHitbox",
+                    "event_arg": ""
+                }
             ],
             "vfx": [
                 "attack_vfx"
@@ -41,7 +47,10 @@
             "has_data": true,
             "vfx_1_name": "Content/Ps/MyPS.uasset",
             "events": [
-                "EnableHitbox"
+                {
+                    "event_name": "EnableHitbox",
+                    "event_arg": ""
+                }
             ],
             "vfx": [
                 "attack_vfx"
@@ -61,7 +70,10 @@
             "has_data": true,
             "vfx_1_name": "Content/Ps/MyPS.uasset",
             "events": [
-                "EnableHitbox"
+                {
+                    "event_name": "EnableHitbox",
+                    "event_arg": ""
+                }
             ],
             "vfx": [
                 "attack_vfx"
@@ -81,7 +93,10 @@
             "has_data": true,
             "vfx_1_name": "Content/Ps/MyPS.uasset",
             "events": [
-                "EnableHitbox"
+                {
+                    "event_name": "EnableHitbox",
+                    "event_arg": ""
+                }
             ],
             "vfx": [
                 "attack_vfx"
@@ -101,7 +116,10 @@
             "has_data": true,
             "vfx_1_name": "Content/Ps/MyPS.uasset",
             "events": [
-                "EnableHitbox"
+                {
+                    "event_name": "EnableHitbox",
+                    "event_arg": ""
+                }
             ],
             "vfx": [
                 "attack_vfx"
@@ -113,7 +131,10 @@
             "has_data": true,
             "vfx_1_name": "Content/Ps/MyPS.uasset",
             "events": [
-                "EnableHitbox"
+                {
+                    "event_name": "EnableHitbox",
+                    "event_arg": ""
+                }
             ],
             "vfx": [
                 "attack_vfx"
