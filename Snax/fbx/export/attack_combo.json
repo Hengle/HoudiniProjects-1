@@ -24,8 +24,8 @@
             "has_data": true,
             "anim_notifies": [
                 {
-                    "event_name": "EnableHitbox",
-                    "event_arg": ""
+                    "event_name": "SendGameplayTagEventNS",
+                    "event_arg": "Triggers.Character.EnableWeapon"
                 },
                 {
                     "event_name": "SAnimNotifyState_TimedNiagaraEffect",
@@ -66,8 +66,8 @@
             "has_data": true,
             "anim_notifies": [
                 {
-                    "event_name": "EnableHitbox",
-                    "event_arg": ""
+                    "event_name": "SendGameplayTagEventNS",
+                    "event_arg": "Triggers.Character.EnableWeapon"
                 },
                 {
                     "event_name": "SAnimNotifyState_TimedNiagaraEffect",
@@ -108,8 +108,8 @@
             "has_data": true,
             "anim_notifies": [
                 {
-                    "event_name": "EnableHitbox",
-                    "event_arg": ""
+                    "event_name": "SendGameplayTagEventNS",
+                    "event_arg": "Triggers.Character.EnableWeapon"
                 },
                 {
                     "event_name": "SAnimNotifyState_TimedNiagaraEffect",
