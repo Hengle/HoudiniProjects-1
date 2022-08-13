@@ -7,146 +7,136 @@
             "frame": 1.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [
+            "anim_notifies": [
                 {
-                    "event_name": "EnableHitbox",
+                    "event_name": "",
+                    "event_arg": ""
+                },
+                {
+                    "event_name": "",
                     "event_arg": ""
                 }
-            ],
-            "vfx": [
-                "attack_vfx"
             ]
         },
         {
             "frame": 20.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [
+            "anim_notifies": [
                 {
                     "event_name": "EnableHitbox",
                     "event_arg": ""
+                },
+                {
+                    "event_name": "SAnimNotifyState_TimedNiagaraEffect",
+                    "event_arg": "P_SG_Fire_DashTrail"
                 }
-            ],
-            "vfx": [
-                "attack_vfx"
             ]
         },
         {
             "frame": 30.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [],
-            "vfx": []
+            "anim_notifies": []
         },
         {
             "frame": 40.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [
+            "anim_notifies": [
                 {
-                    "event_name": "EnableHitbox",
+                    "event_name": "",
+                    "event_arg": ""
+                },
+                {
+                    "event_name": "",
                     "event_arg": ""
                 }
-            ],
-            "vfx": [
-                "attack_vfx"
             ]
         },
         {
             "frame": 50.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [],
-            "vfx": []
+            "anim_notifies": []
         },
         {
             "frame": 70.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [
+            "anim_notifies": [
                 {
                     "event_name": "EnableHitbox",
                     "event_arg": ""
+                },
+                {
+                    "event_name": "SAnimNotifyState_TimedNiagaraEffect",
+                    "event_arg": "P_SG_Fire_DashTrail"
                 }
-            ],
-            "vfx": [
-                "attack_vfx"
             ]
         },
         {
             "frame": 80.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [],
-            "vfx": []
+            "anim_notifies": []
         },
         {
             "frame": 90.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [
+            "anim_notifies": [
                 {
-                    "event_name": "EnableHitbox",
+                    "event_name": "",
+                    "event_arg": ""
+                },
+                {
+                    "event_name": "",
                     "event_arg": ""
                 }
-            ],
-            "vfx": [
-                "attack_vfx"
             ]
         },
         {
             "frame": 110.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [],
-            "vfx": []
+            "anim_notifies": []
         },
         {
             "frame": 120.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [
+            "anim_notifies": [
                 {
                     "event_name": "EnableHitbox",
                     "event_arg": ""
+                },
+                {
+                    "event_name": "SAnimNotifyState_TimedNiagaraEffect",
+                    "event_arg": "P_SG_Fire_DashTrail"
                 }
-            ],
-            "vfx": [
-                "attack_vfx"
             ]
         },
         {
             "frame": 130.0,
             "has_transformation": true,
             "has_data": true,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [
+            "anim_notifies": [
                 {
-                    "event_name": "EnableHitbox",
+                    "event_name": "",
+                    "event_arg": ""
+                },
+                {
+                    "event_name": "",
                     "event_arg": ""
                 }
-            ],
-            "vfx": [
-                "attack_vfx"
             ]
         },
         {
             "frame": 150.0,
             "has_transformation": true,
             "has_data": false,
-            "vfx_1_name": "Content/Ps/MyPS.uasset",
-            "events": [],
-            "vfx": []
+            "anim_notifies": []
         }
     ]
 }
