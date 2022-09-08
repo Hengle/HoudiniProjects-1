@@ -11,8 +11,9 @@
                 {
                     "event_name": "",
                     "event_args": [
-                        "",
-                        ""
+                        "vfx_pt_1",
+                        "EnemyProjectile",
+                        "0.5"
                     ]
                 },
                 {
@@ -30,17 +31,18 @@
             "has_data": true,
             "anim_notifies": [
                 {
-                    "event_name": "SendGameplayTagEventNS",
+                    "event_name": "SAnimNotifyState_CreateHitboxSphere",
                     "event_args": [
-                        "Triggers.Character.EnableWeaponHitbox",
-                        "Triggers.Character.DisableWeaponHitbox"
+                        "vfx_pt_1",
+                        "EnemyProjectile",
+                        "0.5"
                     ]
                 },
                 {
-                    "event_name": "SAnimNotifyState_TimedNiagaraEffect",
+                    "event_name": "",
                     "event_args": [
-                        "NiagaraSystem'/Game/ParticleFX/UsedParticles/P_SG_Fire_DashTrail.P_SG_Fire_DashTrail'",
-                        "vfx_pt_1"
+                        "",
+                        ""
                     ]
                 }
             ]
@@ -59,6 +61,7 @@
                 {
                     "event_name": "",
                     "event_args": [
+                        "",
                         "",
                         ""
                     ]
@@ -84,17 +87,18 @@
             "has_data": true,
             "anim_notifies": [
                 {
-                    "event_name": "SendGameplayTagEventNS",
+                    "event_name": "SAnimNotifyState_CreateHitboxSphere",
                     "event_args": [
-                        "Triggers.Character.EnableWeaponHitbox",
-                        "Triggers.Character.DisableWeaponHitbox"
+                        "vfx_pt_1",
+                        "EnemyProjectile",
+                        "0.5"
                     ]
                 },
                 {
-                    "event_name": "SAnimNotifyState_TimedNiagaraEffect",
+                    "event_name": "",
                     "event_args": [
-                        "NiagaraSystem'/Game/ParticleFX/UsedParticles/P_SG_Fire_DashTrail.P_SG_Fire_DashTrail'",
-                        "vfx_pt_1"
+                        "",
+                        ""
                     ]
                 }
             ]
@@ -113,6 +117,7 @@
                 {
                     "event_name": "",
                     "event_args": [
+                        "",
                         "",
                         ""
                     ]
@@ -138,17 +143,18 @@
             "has_data": true,
             "anim_notifies": [
                 {
-                    "event_name": "SendGameplayTagEventNS",
+                    "event_name": "SAnimNotifyState_CreateHitboxSphere",
                     "event_args": [
-                        "Triggers.Character.EnableWeaponHitbox",
-                        "Triggers.Character.DisableWeaponHitbox"
+                        "vfx_pt_1",
+                        "EnemyProjectile",
+                        "0.5"
                     ]
                 },
                 {
-                    "event_name": "SAnimNotifyState_TimedNiagaraEffect",
+                    "event_name": "",
                     "event_args": [
-                        "NiagaraSystem'/Game/ParticleFX/UsedParticles/P_SG_Fire_DashTrail.P_SG_Fire_DashTrail'",
-                        "vfx_pt_1"
+                        "",
+                        ""
                     ]
                 }
             ]
@@ -156,11 +162,24 @@
         {
             "frame": 130.0,
             "has_transformation": true,
+            "has_data": false,
+            "anim_notifies": []
+        },
+        {
+            "frame": 150.0,
+            "has_transformation": true,
+            "has_data": false,
+            "anim_notifies": []
+        },
+        {
+            "frame": 134.0,
+            "has_transformation": true,
             "has_data": true,
             "anim_notifies": [
                 {
                     "event_name": "",
                     "event_args": [
+                        "",
                         "",
                         ""
                     ]
@@ -173,12 +192,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "frame": 150.0,
-            "has_transformation": true,
-            "has_data": false,
-            "anim_notifies": []
         }
     ]
 }
